@@ -52,7 +52,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="dIB-80-3VY"/>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wu2-3R-vt3" customClass="ScrollViewMinimap" customModule="ScrollViewMinimap">
-                                <rect key="frame" x="245" y="607" width="117" height="211"/>
+                                <rect key="frame" x="245" y="591" width="117" height="211"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
@@ -65,7 +65,7 @@
                             <constraint firstItem="Wu2-3R-vt3" firstAttribute="width" relation="lessThanOrEqual" secondItem="N3c-nq-Wnu" secondAttribute="width" multiplier="0.3" id="Ice-cA-YME"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wu2-3R-vt3" secondAttribute="trailing" constant="28" id="LFM-Zg-H3Y"/>
                             <constraint firstItem="Wu2-3R-vt3" firstAttribute="height" relation="lessThanOrEqual" secondItem="N3c-nq-Wnu" secondAttribute="height" multiplier="0.3" id="Oyp-Ml-05h"/>
-                            <constraint firstItem="Wu2-3R-vt3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="8" id="ena-ha-bke"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wu2-3R-vt3" secondAttribute="bottom" constant="8" id="ena-ha-bke"/>
                             <constraint firstItem="N3c-nq-Wnu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k1q-9y-aw4"/>
                             <constraint firstAttribute="bottom" secondItem="N3c-nq-Wnu" secondAttribute="bottom" id="mwz-UM-INo"/>
                             <constraint firstItem="Wu2-3R-vt3" firstAttribute="width" secondItem="N3c-nq-Wnu" secondAttribute="width" multiplier="0.3" placeholder="YES" id="tDj-rh-QJE" userLabel="[Placeholder] Minimap Width Constraint"/>
