@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033573E7258526D4008B5F11 /* ScrollViewMinimap in Frameworks */ = {isa = PBXBuildFile; productRef = 033573E6258526D4008B5F11 /* ScrollViewMinimap */; };
 		0338748C257B082900182E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0338748B257B082900182E2E /* AppDelegate.swift */; };
 		0338748E257B082900182E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0338748D257B082900182E2E /* SceneDelegate.swift */; };
 		03387490257B082900182E2E /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0338748F257B082900182E2E /* ImageViewerViewController.swift */; };
 		03387493257B082900182E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03387491257B082900182E2E /* Main.storyboard */; };
 		03387495257B082B00182E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03387494257B082B00182E2E /* Assets.xcassets */; };
 		03387498257B082B00182E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03387496257B082B00182E2E /* LaunchScreen.storyboard */; };
+		0352C6A42585E58500711CB8 /* ScrollViewMinimap in Frameworks */ = {isa = PBXBuildFile; productRef = 0352C6A32585E58500711CB8 /* ScrollViewMinimap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		033573DC258525FF008B5F11 /* ScrollViewMinimap */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ScrollViewMinimap; path = ../../ScrollViewMinimap; sourceTree = "<group>"; };
 		03387488257B082900182E2E /* ImageViewerMinimapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewerMinimapExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0338748B257B082900182E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0338748D257B082900182E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033573E7258526D4008B5F11 /* ScrollViewMinimap in Frameworks */,
+				0352C6A42585E58500711CB8 /* ScrollViewMinimap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +49,6 @@
 		0338747F257B082900182E2E = {
 			isa = PBXGroup;
 			children = (
-				033573DC258525FF008B5F11 /* ScrollViewMinimap */,
 				0338748A257B082900182E2E /* ImageViewerMinimapExample */,
 				03387489257B082900182E2E /* Products */,
 				033573DF2585264A008B5F11 /* Frameworks */,
@@ -96,7 +94,7 @@
 			);
 			name = ImageViewerMinimapExample;
 			packageProductDependencies = (
-				033573E6258526D4008B5F11 /* ScrollViewMinimap */,
+				0352C6A32585E58500711CB8 /* ScrollViewMinimap */,
 			);
 			productName = ScrollViewMinimap;
 			productReference = 03387488257B082900182E2E /* ImageViewerMinimapExample.app */;
@@ -125,6 +123,9 @@
 				Base,
 			);
 			mainGroup = 0338747F257B082900182E2E;
+			packageReferences = (
+				0352C6A22585E58500711CB8 /* XCRemoteSwiftPackageReference "ScrollViewMinimap" */,
+			);
 			productRefGroup = 03387489257B082900182E2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -365,9 +366,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		0352C6A22585E58500711CB8 /* XCRemoteSwiftPackageReference "ScrollViewMinimap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicoelayda/ScrollViewMinimap.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		033573E6258526D4008B5F11 /* ScrollViewMinimap */ = {
+		0352C6A32585E58500711CB8 /* ScrollViewMinimap */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 0352C6A22585E58500711CB8 /* XCRemoteSwiftPackageReference "ScrollViewMinimap" */;
 			productName = ScrollViewMinimap;
 		};
 /* End XCSwiftPackageProductDependency section */

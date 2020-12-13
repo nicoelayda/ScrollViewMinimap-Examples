@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ScrollViewMinimap",
+        "repositoryURL": "https://github.com/nicoelayda/ScrollViewMinimap.git",
+        "state": {
+          "branch": null,
+          "revision": "abc0b7d844b58e32fc59fda06dc65944203509b8",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
